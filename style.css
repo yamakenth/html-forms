@@ -215,3 +215,10 @@ footer ul {
 footer a {
   color: #505050 !important;
 }
+
+.privacy-section {
+  background-color: #fff;
+  color: #505050;
+  padding: 20px;
+  font-size: 14px;
+}
