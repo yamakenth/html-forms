@@ -113,4 +113,82 @@ form {
   width: 380px;
   padding: 30px;
   margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form h2 {
+  font-size: 24px;
+  color: #393A3D;
+}
+
+.form-description {
+  color: #393A3D;
+  padding: 20px 12px;
+  font-size: 14px;
+}
+
+form label {
+  font-size: 14px;
+  color: #404040;
+  display: flex;
+  margin-bottom: 6px;
+}
+
+form input {
+  width: 100%;
+  height: 34px;
+  font-size: 18px;
+  padding: 0 8px;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+}
+
+#email,
+#password,
+.phone-details {
+  margin-bottom: 25px;
+}
+
+.phone-details {
+  color: #444444;
+  text-align: left;
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+#password {
+  background: url('./img/unlock.png') no-repeat;
+  background-size: 20px;
+  background-position: right 10px bottom 50%;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 6px;
+  font-size: 15.75px;
+  margin-bottom: 20px;
+}
+
+.terms-and-conditions {
+  font-size: 12px;
+  color: #757575;
+  padding: 0 4px;
+  font-style: italic;
+}
+
+.terms-update-date {
+  font-style: italic;
+  font-weight: 900;
+  color: #4d4d4d;
+  margin: 2px 0 32px;
+  font-size: 14px;
+}
+
+.captcha {
+  margin: 0 -30px -30px;
+  background-color: #eceef1;
+  color: #4d4d4d;
+  font-size: 10px;
+  padding: 16px;
 }
