@@ -9,3 +9,48 @@
   box-sizing: border-box;
   font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+body {
+  background-color: #ebeef1;
+}
+
+.sign-in-section {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.sign-in-content {
+  margin: 0 10px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.sign-in-content p {
+  color: #505050;
+  font-size: 12px;
+  display: flex;
+}
+
+.sign-in-content a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.sign-in-button {
+  color: #fff;
+  background-color: #0077c5;
+  font-size: 13.5px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.fa-lock {
+  margin-right: 6px;
+  padding: 10px 0;
+}
