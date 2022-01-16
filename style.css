@@ -14,6 +14,25 @@ body {
   background-color: #ebeef1;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.active-effect:hover {
+  text-decoration: underline;
+}
+
+button:hover,
+.intuit-logo:hover {
+  cursor: pointer;
+}
+
 .sign-in-section {
   padding: 10px 30px;
   display: flex;
@@ -37,7 +56,6 @@ body {
 }
 
 .sign-in-content a {
-  text-decoration: none;
   color: #0077c5;
 }
 
@@ -53,4 +71,34 @@ body {
 .fa-lock {
   margin-right: 6px;
   padding: 10px 0;
+}
+
+.intuit-logo {
+  height: 35px;
+  margin: 20px 0;
+}
+
+nav {
+  margin-bottom: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+nav img {
+  width: 23px;
+  height: 23px;
+}
+
+nav a {
+  display: flex;
+  gap: 6px;
+  color: #505050;
 }
